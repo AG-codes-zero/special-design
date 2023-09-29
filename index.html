@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="setting-box">
+        <div class="option-box color">
+            <h4>Colors</h4>
+            <div class="color-option">
+                <span class="active" data-color="#00a0b0"></span>
+                <span data-color="#4f372d"></span>
+                <span data-color="#cc2a37"></span>
+                <span data-color="#ee7854"></span>
+                <span data-color="#eecd62"></span>
+            </div>
+        </div>
+        <div class="option-box option-bg">
+            <h4>Random Backgrounds</h4>
+            <div class="random-background options">
+                <span class="yes active" data-option="yes">Yes</span>
+                <span class="no" data-option="no">No</span>
+            </div>
+        </div>
+        <div class="option-box option-bu">
+            <h4>Bullets</h4>
+            <div class="bullts options">
+                <span class="yes active" data-option="yes">Yes</span>
+                <span class="no" data-option="no">No</span>
+            </div>
+        </div>
+        <div class="togle-setting">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </div>
+
+    <div class="bullets">
+        <div class="bullet" data-section=".about-us" data-text="about"></div>
+        <div class="bullet" data-section=".our-skills" data-text="skills"></div>
+        <div class="bullet" data-section=".our-gallery" data-text="gallery"></div>
+        <div class="bullet" data-section=".time-line" data-text="timeline"></div>
+        <div class="bullet" data-section=".our-features" data-text="features"></div>
+        <div class="bullet" data-section=".testmonials" data-text="testimonials"></div>
+    </div>
+
+    <div class="top"><i class="fa-solid fa-arrow-up"></i></div>
+
+    <header>
+        <div class="container">
+            <div class="logo"><a href="">Abdallah</a></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="">about</a></li>
+                    <li><a href="">skills</a></li>
+                    <li><a href="">gallery</a></li>
+                    <li><a href="">timeline</a></li>
+                    <li><a href="">features</a></li>
+                    <li><a href="">testimonials</a></li>
+                </ul>
+                <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="background"></div>
+        <div class="overlay"></div>
+        <div class="chevron">
+            <i class="fa-solid fa-chevron-right" data-slid="right"></i>
+            <i class="fa-solid fa-chevron-left" data-slid="left"></i>
+        </div>
+        <div class="page-text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Repellendus odit nihil ullam nesciunt quidem iste</p>
+        </div>
+    </div>
+    
+    <div class="about-us">
+        <div class="container">
+            <div class="text">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsum, tenetur dolores esse magni ratione distinctio! Quod iusto neque fuga, maxime quos nostrum quibusdam dicta deserunt blanditiis non voluptate id?</p>
+            </div>
+            <div class="img">
+                <img src="images/about-us.jpg" alt="error">
+            </div>
+        </div>
+    </div>
+
+    <div class="our-skills">
+        <div class="container">
+            <h2 class="special-head">Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill">html</div>
+                <div class="skill-range">
+                    <span class="rang" data-range="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill">css</div>
+                <div class="skill-range">
+                    <span class="rang" data-range="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill">javascript</div>
+                <div class="skill-range">
+                    <span class="rang" data-range="75%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill">node.js</div>
+                <div class="skill-range">
+                    <span class="rang" data-range="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill">mongoDb</div>
+                <div class="skill-range">
+                    <span class="rang" data-range="70%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-gallery">
+        <div class="container">
+            <h2 class="special-head">our gallery</h2>
+            <div class="gallery">
+                <img src="images/01.jpg" alt="one">
+                <img src="images/02.jpg" alt="tow">
+                <img src="images/03.jpg" alt="three">
+                <img src="images/04.jpg" alt="four">
+                <img src="images/05.jpg" alt="five">
+                <img src="images/06.jpg" alt="six">
+                <img src="images/07.jpg" alt="seven">
+                <img src="images/08.jpg" alt="eight">
+                <img src="images/09.jpg" alt="nine">
+                <img src="images/010.jpg" alt="ten">
+            </div>
+        </div>
+    </div>
+    
+    <div class="time-line">
+        <div class="container">
+            <div class="year">2022</div>
+            <div class="text left">
+                <h3>Testing Heading</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+            </div>
+            <div class="text right">
+                <h3>Testing Heading</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+            </div>
+            <div class="year">2023</div>
+            <div class="text left">
+                <h3>Testing Heading</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+            </div>
+            <div class="text left">
+                <h3>Testing Heading</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-features">
+        <div class="container">
+            <h2 class="special-head">our features</h2>
+            <div class="content">
+                <div class="feature">
+                    <img src="images/advertising.svg" alt="">
+                    <h4>advertising</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/graphic-design.svg" alt="">
+                    <h4>graphic design</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/hosting-icon.svg" alt="">
+                    <h4>hosting</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/mobile-app.svg" alt="">
+                    <h4>mobile app</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/programming.svg" alt="">
+                    <h4>programming</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/web-design.svg" alt="">
+                    <h4>web design</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testmonials">
+        <div class="container">
+            <h2>testimonials</h2>
+            <div class="content">
+                <div class="card">
+                    <p class="desc">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="ads"></div>
+                    <h4 class="name">AbdallaH Gamal</h4>
+                    <p class="jop">CEO At Company</p>
+                </div>
+                <div class="card">
+                    <p class="desc">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="ads"></div>
+                    <h4 class="name">AbdallaH Gamal</h4>
+                    <p class="jop">CEO At Company</p>
+                </div>
+                <div class="card">
+                    <p class="desc">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="ads"></div>
+                    <h4 class="name">AbdallaH Gamal</h4>
+                    <p class="jop">CEO At Company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="special-head">contact us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" name="username" placeholder="your name">
+                    <input type="text" name="phone" placeholder="your phone">
+                    <input type="email" name="email" placeholder="your email">
+                    <input type="text" name="subject" placeholder="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="yore message"></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>Created With Love By Abdallah Gamal</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
